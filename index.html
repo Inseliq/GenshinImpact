@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#102b4d">
+  <meta name="description" content="Фанатский лендинг Genshin Impact: мир Тейвата, регионы, персонажи и красивые пейзажи.">
+  <title>Genshin Impact — Открой для себя Тейват</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Шапка / меню -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Genshin Impact — на главную">
+        <span class="brand-star" aria-hidden="true">✧</span>
+        <span class="brand-name">Genshin <small>IMPACT</small></span>
+      </a>
+
+      <nav class="main-nav" aria-label="Навигация по сайту">
+        <a class="nav-active" href="#home">Главная</a>
+        <a href="#about">Об игре</a>
+        <a href="#regions">Мир</a>
+        <a href="#characters">Персонажи</a>
+        <a href="#gallery">Галерея</a>
+      </nav>
+
+      <a class="button button-gold header-button" href="https://genshin.hoyoverse.com/" target="_blank" rel="noopener noreferrer">
+        Начать игру <span aria-hidden="true">↗</span>
+      </a>
+
+      <!-- CSS-only меню для телефонов -->
+      <details class="mobile-menu">
+        <summary aria-label="Открыть меню"><span></span><span></span><span></span></summary>
+        <nav class="mobile-nav" aria-label="Мобильная навигация">
+          <a href="#home">Главная</a>
+          <a href="#about">Об игре</a>
+          <a href="#regions">Мир Тейвата</a>
+          <a href="#characters">Персонажи</a>
+          <a href="#gallery">Галерея</a>
+          <a class="mobile-play" href="https://genshin.hoyoverse.com/" target="_blank" rel="noopener noreferrer">Играть бесплатно ↗</a>
+        </nav>
+      </details>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. Главный экран -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-sky" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <span class="hero-eyebrow"><span class="hero-eyebrow-line"></span>ПУТЕШЕСТВИЕ НАЧИНАЕТСЯ ЗДЕСЬ<span class="hero-eyebrow-line"></span></span>
+          <h1 id="hero-title">Открой для себя <strong>Тейват</strong></h1>
+          <p>Незабываемые приключения, сила стихий и удивительный мир, полный тайн.</p>
+          <span class="hero-symbol" aria-hidden="true">— ✧ —</span>
+          <a class="button button-gold button-large" href="#regions">Начать путешествие <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="hero-scroll"><span></span>Листай вниз</div>
+    </section>
+
+    <!-- 2. Об игре -->
+    <section class="section section-about" id="about" aria-labelledby="about-title">
+      <div class="section-decoration decoration-left" aria-hidden="true">✥</div>
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">Добро пожаловать в Тейват</span>
+          <h2 id="about-title"><span class="heading-ornament" aria-hidden="true"></span>Об игре<span class="heading-ornament" aria-hidden="true"></span></h2>
+          <p>Genshin Impact — приключенческая ролевая игра с открытым миром, где вас ждут яркие персонажи, захватывающие сражения и бескрайние просторы Тейвата.</p>
+        </div>
+
+        <div class="features flex-row">
+          <article class="feature-card">
+            <div class="feature-content">
+              <span class="feature-icon" aria-hidden="true">✧</span>
+              <div>
+                <h3>Открытый мир</h3>
+                <p>Свободно исследуйте огромный мир, полный красоты и удивительных открытий.</p>
+              </div>
+            </div>
+            <img src="images/feature-world.webp" alt="Зелёные поля и город в мире Тейвата" width="795" height="258">
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-content">
+              <span class="feature-icon" aria-hidden="true">◉</span>
+              <div>
+                <h3>Сражения стихий</h3>
+                <p>Используйте силу семи стихий, создавайте комбинации и побеждайте врагов.</p>
+              </div>
+            </div>
+            <img src="images/feature-elements.webp" alt="Магические эффекты во время сражения" width="789" height="264">
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-content">
+              <span class="feature-icon" aria-hidden="true">❖</span>
+              <div>
+                <h3>Исследование</h3>
+                <p>Находите сокровища, решайте загадки и погружайтесь в невероятные истории.</p>
+              </div>
+            </div>
+            <img src="images/feature-discovery.webp" alt="Древние руины Тейвата на фоне неба" width="783" height="255">
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Регионы -->
+    <section class="section section-regions" id="regions" aria-labelledby="regions-title">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">Мир бесконечных открытий</span>
+          <h2 id="regions-title"><span class="heading-ornament" aria-hidden="true"></span>Регионы Тейвата<span class="heading-ornament" aria-hidden="true"></span></h2>
+          <p>Семь народов, семь стихий, бесчисленные истории. Каждый регион уникален и хранит свои тайны.</p>
+        </div>
+
+        <div class="regions-list flex-row">
+          <article class="region-card">
+            <a href="https://genshin.hoyoverse.com/en/map" target="_blank" rel="noopener noreferrer" aria-label="Узнать больше о Мондштадте">
+              <div class="region-photo"><img src="images/region-mondstadt.webp" alt="Мондштадт — город с высокими башнями и ветряными мельницами"></div>
+              <div class="region-info">
+                <span class="element-mark anemo" aria-label="Анемо">✥</span>
+                <div class="region-copy"><h3>Мондштадт</h3><p>Город свободы, где ветер несёт мечты и песни.</p></div>
+                <span class="round-arrow" aria-hidden="true">›</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="region-card">
+            <a href="https://genshin.hoyoverse.com/en/map" target="_blank" rel="noopener noreferrer" aria-label="Узнать больше о Ли Юэ">
+              <div class="region-photo"><img src="images/region-liyue.webp" alt="Ли Юэ — гавань среди золотистых гор"></div>
+              <div class="region-info">
+                <span class="element-mark geo" aria-label="Гео">◇</span>
+                <div class="region-copy"><h3>Ли Юэ</h3><p>Земля контрактов, где горы хранят древнюю мудрость.</p></div>
+                <span class="round-arrow" aria-hidden="true">›</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="region-card">
+            <a href="https://genshin.hoyoverse.com/en/map" target="_blank" rel="noopener noreferrer" aria-label="Узнать больше об Инадзуме">
+              <div class="region-photo"><img src="images/region-inazuma.webp" alt="Инадзума — замки и розовые цветущие деревья"></div>
+              <div class="region-info">
+                <span class="element-mark electro" aria-label="Электро">✺</span>
+                <div class="region-copy"><h3>Инадзума</h3><p>Острова вечности, где молнии рассекают небеса.</p></div>
+                <span class="round-arrow" aria-hidden="true">›</span>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Персонажи -->
+    <section class="section section-characters" id="characters" aria-labelledby="characters-title">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">Герои вашего приключения</span>
+          <h2 id="characters-title"><span class="heading-ornament" aria-hidden="true"></span>Популярные персонажи<span class="heading-ornament" aria-hidden="true"></span></h2>
+          <p>В Тейвате вы встретите множество удивительных героев. Вот лишь некоторые из них.</p>
+        </div>
+
+        <div class="characters-list flex-row">
+          <article class="character-card pyro-card">
+            <img src="images/character-diluc.webp" alt="Дилюк — рыжеволосый герой Пиро">
+            <div class="character-info"><div><h3>Дилюк</h3><span class="element-type pyro">♨ <span>Пиро</span></span></div><span class="character-arrow" aria-hidden="true">↗</span></div>
+          </article>
+          <article class="character-card anemo-card">
+            <img src="images/character-jean.webp" alt="Джинн — светловолосая героиня Анемо">
+            <div class="character-info"><div><h3>Джинн</h3><span class="element-type anemo">✥ <span>Анемо</span></span></div><span class="character-arrow" aria-hidden="true">↗</span></div>
+          </article>
+          <article class="character-card electro-card">
+            <img src="images/character-keqing.webp" alt="Кэ Цин — героиня Электро с фиолетовыми волосами">
+            <div class="character-info"><div><h3>Кэ Цин</h3><span class="element-type electro">✺ <span>Электро</span></span></div><span class="character-arrow" aria-hidden="true">↗</span></div>
+          </article>
+          <article class="character-card geo-card">
+            <img src="images/character-zhongli.webp" alt="Чжун Ли — герой стихии Гео">
+            <div class="character-info"><div><h3>Чжун Ли</h3><span class="element-type geo">◇ <span>Гео</span></span></div><span class="character-arrow" aria-hidden="true">↗</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Галерея -->
+    <section class="section section-gallery" id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">Незабываемые мгновения</span>
+          <h2 id="gallery-title"><span class="heading-ornament" aria-hidden="true"></span>Галерея<span class="heading-ornament" aria-hidden="true"></span></h2>
+          <p>Мгновения из путешествия по удивительному миру Тейвата.</p>
+        </div>
+        <div class="gallery-list flex-row">
+          <a href="images/gallery-windrise.webp" target="_blank" aria-label="Открыть пейзаж долины"><img src="images/gallery-windrise.webp" alt="Зелёная долина с деревом и горными пейзажами"></a>
+          <a href="images/gallery-liyue-night.webp" target="_blank" aria-label="Открыть ночной вид гавани"><img src="images/gallery-liyue-night.webp" alt="Гавань Ли Юэ с огнями ночью"></a>
+          <a href="images/gallery-sakura.webp" target="_blank" aria-label="Открыть вид цветущей сакуры"><img src="images/gallery-sakura.webp" alt="Розовая сакура и мост в Инадзуме"></a>
+          <a href="images/gallery-sunset.webp" target="_blank" aria-label="Открыть закатный пейзаж"><img src="images/gallery-sunset.webp" alt="Осенние горы Тейвата на закате"></a>
+          <a href="images/gallery-ruins.webp" target="_blank" aria-label="Открыть вид древних руин"><img src="images/gallery-ruins.webp" alt="Воздушные каменные руины на фоне лазурного неба"></a>
+          <a href="images/gallery-forest.webp" target="_blank" aria-label="Открыть вид волшебного леса"><img src="images/gallery-forest.webp" alt="Ночной волшебный лес с сияющим деревом"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Заключительный баннер -->
+    <section class="final-cta" id="start" aria-labelledby="start-title">
+      <div class="container final-cta-inner">
+        <div class="final-cta-copy">
+          <span class="final-eyebrow">ТЕБЯ ЖДЁТ НОВАЯ ИСТОРИЯ</span>
+          <h2 id="start-title">Твоё приключение<br>начинается <em>здесь</em></h2>
+          <p>Новые друзья, неизведанные земли и бесконечные истории ждут тебя в Тейвате.</p>
+          <a class="button button-gold button-large" href="https://genshin.hoyoverse.com/" target="_blank" rel="noopener noreferrer">Играть бесплатно <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#home"><span class="brand-star" aria-hidden="true">✧</span><span class="brand-name">Genshin <small>IMPACT</small></span></a>
+      <nav class="footer-nav" aria-label="Навигация в подвале">
+        <a href="#home">Главная</a><a href="#about">Об игре</a><a href="#regions">Мир</a><a href="#characters">Персонажи</a><a href="#gallery">Галерея</a>
+      </nav>
+      <p class="footer-note">Фанатский лендинг по Genshin Impact.<br>Создан с любовью к Тейвату. Неофициальный сайт.</p>
+    </div>
+  </footer>
+</body>
+</html>
